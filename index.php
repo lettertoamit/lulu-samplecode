@@ -1,17 +1,18 @@
  <?php 
+
+/*
+authour : amit sharma 
+Description : sample code for lulu.com Api  sanbox mode 
+*/
 use GuzzleHttp\Client;
 
- $clientKey = "04a6ceda-4cdf-4aa3-ba0e-c3ae32c64a9a";
- $clientSecret = "ad450547-ae15-4d64-9e8c-c73218ddca2d";
- $base64encode = "MDRhNmNlZGEtNGNkZi00YWEzLWJhMGUtYzNhZTMyYzY0YTlhOmFkNDUwNTQ3LWFlMTUtNGQ2NC05ZThjLWM3MzIxOGRkY2EyZA==";
-
-  require 'vendor/autoload.php';
+require 'vendor/autoload.php';
 $client = new Client(['base_uri'=>"https://api.sandbox.lulu.com/"]);
 $response = $client->request('POST', 
 	'auth/realms/glasstree/protocol/openid-connect/token',
 	 ['headers' =>[ 
 	 "Content-Type"=>"application/x-www-form-urlencoded",
-	 "Authorization"=>"Basic MDRhNmNlZGEtNGNkZi00YWEzLWJhMGUtYzNhZTMyYzY0YTlhOmFkNDUwNTQ3LWFlMTUtNGQ2NC05ZThjLWM3MzIxOGRkY2EyZA==" 
+	 "Authorization"=>"Basic MDRhNmNlZGEtNGNkZi00YWEzFkNDUwNTQ3LWFlMTUtNGQ2NC05ZThjLWM3MzIxOGRkY2EyZA==" 
 	],
 	 'body' => 'grant_type=client_credentials',
 ]);
