@@ -3,7 +3,8 @@
 /*
 authour : amit sharma 
 Description : sample code for lulu.com Api  sanbox mode for cost calculations this can work with or without framework of php
-kindly install Guzzlehttp\client using composer and start work 
+kindly install Guzzlehttp\client using composer and start work  
+everthing according to https://api.sandbox.lulu.com/docs.
 */
 use GuzzleHttp\Client;
 
