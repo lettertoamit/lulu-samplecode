@@ -2,7 +2,8 @@
 
 /*
 authour : amit sharma 
-Description : sample code for lulu.com Api  sanbox mode for cost calculations 
+Description : sample code for lulu.com Api  sanbox mode for cost calculations this can work with or without framework of php
+kindly install Guzzlehttp\client using composer and start work 
 */
 use GuzzleHttp\Client;
 
