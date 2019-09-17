@@ -2,7 +2,7 @@
 
 /*
 authour : amit sharma 
-Description : sample code for lulu.com Api  sanbox mode for caost calculations 
+Description : sample code for lulu.com Api  sanbox mode for cost calculations 
 */
 use GuzzleHttp\Client;
 
