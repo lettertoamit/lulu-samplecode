@@ -131,7 +131,7 @@ class CreatePrintJob extends luluApi
     "shipping_level": "MAIL"
 }'; 
 
-// $array = json_encode($array); 
+ 
   $var = new CreatePrintJob();
    echo $var->get($array);
  */
